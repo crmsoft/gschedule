@@ -1,7 +1,65 @@
 .schedule{
-    .flatpickr-input{
+    /* hide unnecessary elements of fp */
+    .flatpickr-input, .flatpickr-months{
         display: none;
         visibility: hidden;
         opacity: 0;
+    }
+
+    /* main class of event cell */
+    .has-event{
+
+        display: flex;  
+        flex-flow: row wrap;
+        text-align: center;
+        
+        /* rule for 3, with last under */
+        .aside { flex: 1 0 1; }
+        
+        /* span event day */
+        .event-day{
+            position: absolute;
+            z-index: 3;
+        }
+        
+        /* mark for dudes event */
+        .event-dd-mark{
+            display: inline-block;
+            background-color: red;
+            z-index: 1;
+            order: 1;
+            width: 50%;
+        }
+        /* mark for groups event */
+        .event-group-mark{
+            display: inline-block;
+            background-color: yellow;
+            z-index: 1;
+            order: 2;
+            width: 50%;
+        }
+        /* mark for user event */
+        .user-event-mark{
+            flex: 1 100%;
+            order: 4;
+            display: inline-block;
+            background-color: green;
+            z-index: 1;
+        }
+
+        /* two parallels */
+        .event-dd-mark + .user-event-mark {
+            flex: 1 0 0;
+        }
+        
+        /* two parallels */
+        .event-group-mark + .user-event-mark {
+            flex: 1 0 50%;
+        }
+        /* single event full width */
+        >*:only-child{
+            width: 100%;
+        }
+
     }
 }
