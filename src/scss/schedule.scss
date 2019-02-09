@@ -320,12 +320,19 @@
                                 padding: 0px 0.5rem;
                                 border:1px solid $groupcolor;
                                 float: left;
-                                img
+                                span.fa
                                 {
-                                    height: 13px;
-                                    margin-top:3px;
-                                    margin-right: 5px;
+                                    height: 13px !important;
                                     float: left;
+                                    width:13px !important;
+                                    -webkit-border-radius: 100%;
+                                    -moz-border-radius: 100%;
+                                    border-radius: 100%;
+                                    border:1px solid $groupcolor;
+                                    color:$groupcolor;
+                                    font-weight: 100;
+                                    font-size: 12px;
+                                    margin: 2px;
                                 }
 
                             }
@@ -377,12 +384,19 @@
                                 padding: 0px 0.5rem;
                                 border:1px solid $groupcolor;
                                 float: left;
-                                img
+                                span.fa
                                 {
-                                    height: 13px;
-                                    margin-top:3px;
-                                    margin-right: 5px;
+                                    height: 13px !important;
                                     float: left;
+                                    width:13px !important;
+                                    -webkit-border-radius: 100%;
+                                    -moz-border-radius: 100%;
+                                    border-radius: 100%;
+                                    border:1px solid $groupcolor;
+                                    color:$groupcolor;
+                                    font-weight: 100;
+                                    font-size: 12px;
+                                    margin: 2px;
                                 }
 
                             }
@@ -434,12 +448,19 @@
                                 padding: 0px 0.5rem;
                                 border:1px solid $groupcolor;
                                 float: left;
-                                img
+                                span.fa
                                 {
-                                    height: 13px;
-                                    margin-top:3px;
-                                    margin-right: 5px;
+                                    height: 13px !important;
                                     float: left;
+                                    width:13px !important;
+                                    -webkit-border-radius: 100%;
+                                    -moz-border-radius: 100%;
+                                    border-radius: 100%;
+                                    border:1px solid $groupcolor;
+                                    color:$groupcolor;
+                                    font-weight: 100;
+                                    font-size: 12px;
+                                    margin: 2px;
                                 }
 
                             }
